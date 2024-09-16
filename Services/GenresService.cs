@@ -8,6 +8,7 @@
             _context = context;
         }
 
+
         public async Task<Genre> AddGenre(Genre genre)
         {
             await _context.Genres.AddAsync(genre);
